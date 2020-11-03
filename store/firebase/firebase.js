@@ -12,4 +12,5 @@ import 'firebase/database';
     appId: "1:987193290672:web:f20fe98188004ba53e3075",
     measurementId: "G-4Z7E40RYM2"
   };
-  export default firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+  export default firebase;
